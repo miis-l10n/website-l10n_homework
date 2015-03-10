@@ -1,0 +1,77 @@
+<style type="text/css">
+	
+a {
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.buttons li {
+	color: white;
+	border: none;
+	height: 28px;
+	border-radius: 12px;
+	padding: 20px;
+	margin-top: 110px;
+	margin-bottom: 110px;
+	margin-right: 70px;
+	background-color: gray;
+	font-family: helvetica;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+} 
+
+.buttons li:first-child {
+	margin-top: 130px;
+}
+
+.lights li {
+	border-radius: 82px;
+	height: 160px;
+	width: 160px;
+	list-style: none;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+} 
+
+.lights li:first-child {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.lights li:last-child {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.red {
+	background-color: black;
+
+}
+
+.redlight {
+	background-color: red;
+}
+
+.yellow {
+	background-color: black;
+
+}
+
+.yellowlight {
+	background-color: yellow;
+
+}
+
+.green {
+	background-color: black;
+
+}
+
+.greenlight {
+	background-color: green;
+
+}	
+</style>
