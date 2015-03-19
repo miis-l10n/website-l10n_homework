@@ -1,0 +1,44 @@
+.button{
+	list-style-type: none;
+	float: left;
+	padding:40px;
+	margin-left: 300px
+}
+.button li{
+	height: 100px;
+	width: 150px;
+	background-color:gray;
+	color: white;
+	line-height:100px; 
+	border-radius: 20px;
+	margin-left: 36px;
+	margin-top: 86px;
+	margin-right: 36px;
+	margin-bottom: 136px;
+
+	text-align:center;
+	font-family: Arial;
+	font-size: 200%;
+	font-weight:bold;
+	}
+
+.light{
+	list-style-type: none;
+	background-color:#4D4D4D;
+	border-radius: 30px;
+	float: right;
+	padding:40px;
+	margin-right: 100px
+}
+
+.light li{
+	height: 200px;
+	width: 200px;
+	background-color:black;
+	border-radius: 100px;
+	margin: 36px
+}
+
+#tl{
+	margin-right: 200px
+}
