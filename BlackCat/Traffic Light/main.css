@@ -1,0 +1,39 @@
+.Button {
+	float: left;
+	margin-right: 30px;
+}
+
+.Button li {
+	list-style: none;
+	background-color: #999999;
+	border-radius: 10px;
+	width: 75px;
+	text-align:center;
+	padding: 25px;
+	margin-top:50px;
+	font-size: 25pt;
+	color: white;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.light {
+	float:left;
+	background-color: #4C4C4C;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.light li {
+	list-style:none;
+	height:100px;
+	width:100px;
+	border-radius: 70px;
+	margin: 30px;
+	padding:20px;
+	background-color: black;
+}
+
+.light ul {
+	padding-left: 0;
+}
