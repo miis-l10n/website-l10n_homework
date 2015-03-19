@@ -1,25 +1,36 @@
+var red = document.querySelector(".red")
+var stop = document.querySelector(".stop")
+
+var yellow = document.querySelector(".yellow")
+var slow = document.querySelector(".slow")
+
+var green = document.querySelector(".green")
+var go = document.querySelector(".go")
 
 
-document.getElementById( 'stop' ).onclick = Stop;
-document.getElementById( 'slow' ).onclick = Slow;
-document.getElementById( 'go' ).onclick = Go;
 
-function Lightsoff() {
-  document.getElementById('1').style.backgroundColor = "black";
-  document.getElementById('2').style.backgroundColor = "black";
-  document.getElementById('3').style.backgroundColor = "black";
-}
+stop.addEventListener("click", Red);
+slow.addEventListener("click", Yellow);
+go.addEventListener("click", Green)
 
-function Stop() {
-  Lightsoff(); document.getElementById('1').style.backgroundColor = "red";
-}
 
-function Slow() {
-  Lightsoff(); document.getElementById('2').style.backgroundColor = "yellow";
-}
 
-function Go() {
-  Lightsoff(); document.getElementById('3').style.backgroundColor = "green";
-}
+function Red () {
+		red.style.backgroundColor = "red";
+		yellow.style.backgroundColor = "black";
+		green.style.backgroundColor = "black";
+	}
 
+function Yellow () {
+		yellow.style.backgroundColor = "yellow";
+		red.style.backgroundColor = "black";
+		green.style.backgroundColor = "black";
+	}
+
+function Green () {
+		green.style.backgroundColor = "green";
+		red.style.backgroundColor = "black";
+		yellow.style.backgroundColor = "black";
+		
+	}
 
