@@ -1,0 +1,43 @@
+* {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 24pt;
+	color: white;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+.buttons {
+	float: left;
+	margin-right: 75px;
+}
+
+.buttons li {
+	/*height: 80px;*/
+	width: 120px;
+	background-color: gray;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 120px;
+}
+
+.lights {
+	height: 700px;
+	/*width: 350px;*/
+	border-radius: 50px;
+	background-color: #696969;
+	float: left;
+}
+
+.lights li {
+	height: 200px;
+	width: 200px;
+	border-radius: 150px;
+	background-color: black;
+	margin-right: 45px;
+	margin-top: 25px;
+}
