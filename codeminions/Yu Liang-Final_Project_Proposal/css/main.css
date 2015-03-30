@@ -1,0 +1,39 @@
+body {
+	margin: 50px;
+	padding: 0 200 0 200;
+	font-size: 15pt;
+
+}
+
+h1 {
+	font-size: 35pt;
+	text-align: center;
+}
+
+h2 {
+	font-size: 25pt;
+	margin-bottom: 10px;
+}
+
+h3 {
+	text-align: right;
+}
+
+p {
+	margin-top: 10px;
+}
+
+ul {
+	list-style-type: decimal;
+	margin-top: 10px;
+}
+
+p ul {
+	margin-top: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	max-width: 100% 
+}
