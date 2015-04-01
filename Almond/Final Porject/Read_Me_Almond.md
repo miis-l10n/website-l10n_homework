@@ -1,0 +1,5 @@
+Our group “Almond” has 4 members: Amber Li, Guanghan Liu, Kathy Yang and Yunrong Gu. We want to build a staAc website in order to help lost Samoyed dogs.
+The original website will be wriEen in English, and we will localize it into Chinese, Japanese and German. The website will consist of 4 pages: Home page, Shelter, Food and History of Samoyed dogs. The Home page will introduce our website’s mission and show the layout of our website. It will also provide links to our partner websites.
+In the Shelter page, we will give out a list of animal shelters according to the locaAons of our users by embedding Google Map into our website.
+In the Food page, we will present a variety of possible food for the Samoyed dogs and users can learn whether they fit Samoyed dogs or not by clicking on the food icon.
+In the History page, there will be a world map, and by clicking on different parts of the map, users can see the migraAng traces of the Samoyed dogs.
