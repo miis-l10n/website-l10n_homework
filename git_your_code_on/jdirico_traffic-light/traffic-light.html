@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Traffic Light</title>
+</head>
+
+<body>
+<div style="float: left">
+<ul class="buttons">
+	<li class="stop">Stop</li>
+	<li class="slow">Slow</li>
+	<li class="go">Go</li>
+</ul>
+</div>
+<div style="float: left; background-color: #2B2B2B; margin-top: 40px; margin-bottom: 40px; border-radius: 3em;" >
+<ul class="lights">
+	<li class="red"></li>
+	<li class="yellow"></li>
+	<li class="green"></li>
+</ul>
+</div>	
+
+</body>
+
+<script type="text/javascript">
+
+var red = document.querySelector(".red")
+var yellow = document.querySelector(".yellow")
+var green = document.querySelector(".green")
+var stop = document.querySelector(".stop")
+var slow = document.querySelector(".slow")
+var go = document.querySelector(".go")
+
+stop.addEventListener("click", turnlightred)
+slow.addEventListener("click", turnlightyellow)
+go.addEventListener("click", turnlightgreen)
+
+function turnlightred() {
+	red.setAttribute("class", "redlight")
+	yellow.setAttribute("class", "yellow")
+	green.setAttribute("class", "green")
+}
+
+function turnlightyellow() {
+	yellow.setAttribute("class", "yellowlight")
+	red.setAttribute("class", "red")
+	green.setAttribute("class", "green")
+}
+function turnlightgreen() {
+	green.setAttribute("class", "greenlight")
+	yellow.setAttribute("class", "yellow")
+	red.setAttribute("class", "red")
+}
+// var list = document.querySelector("ul")
+// var red = document.querySelector(".red")
+// var yellow = document.querySelector(".yellow")
+// var green = document.querySelector(".green")
+// var redlight = document.querySelector(".red")
+// var yellowlight = document.querySelector(".yellow")
+// var greenlight = document.querySelector(".green")
+
+
+// list.addEventListener("click", changeColor)
+
+// function changeColor(event) {
+// 	var redlight = event.target
+// 	var yellowlight = event.target
+// 	var greenlight = event.target
+// 	var color = elem.getAttribute("class")
+// 	background-color.setAttribute("class", color)
+
+// }
+
+</script>
+
+</html>
