@@ -1,0 +1,29 @@
+nav {
+	background-color: #336699;
+	border: 12px solid #003366;
+	color: #777;
+	border-radius: 5px;
+	/*overflow: hidden;*/
+	margin: 10px;
+	text-align: center;
+}
+
+#dummybodyid > nav{
+	height: 50px;
+}
+nav a {
+	color: #CCFFFF;
+	font-size: 24pt;
+}
+
+ul {
+	display: inline-block;
+/*	font-size: 20pt;*/
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px 0 10px;
+}
+#dummybodyid > div.wrapper > div > ul > li > a

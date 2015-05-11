@@ -1,0 +1,46 @@
+<h1><%= t( 'posts.new.page_title' ) %></h1>
+<%= form_for @post do |f| %>
+ 
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@post.errors.count, "error") %> prohibited
+        this post from being saved:
+      </h2>
+      <ul>
+        <% @post.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <table>
+    <tr>
+      <td><%= f.label t( 'posts.new.title' ) %></td>
+      <td><%= f.text_field :title %></td>
+    </tr>
+
+    <tr>
+      <td><%= f.label t( 'posts.new.img_url' ) %></td>
+      <td><%= f.text_field :img_url%></td>
+    </tr>
+
+    <tr>
+      <td><%= f.label t( 'posts.new.author' ) %></td>
+      <td><%= f.text_field :author %></td>
+    </tr>
+
+    <tr>
+      <td><%= f.label t( 'posts.new.body' ) %></td>
+      <td><%= f.text_area :body %></td>
+    </tr>
+  </table>
+ 
+  <p>
+    <%= f.submit t( 'posts.new.create_btn' ) %>
+  </p>
+ 
+<% end %>
+
+<%= link_to t('.back_btn'), posts_path %>

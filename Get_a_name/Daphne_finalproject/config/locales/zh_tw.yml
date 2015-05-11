@@ -1,0 +1,34 @@
+zh_tw:
+  layouts:
+    application:
+      home_link: "關於"
+      about_link: "HTML"
+      about2_link: "CSS"
+      about3_link: "JavaScript"
+      about4_link: "Ruby on Rails"
+      language_options: "使用以下語言瀏覽:"
+  static_pages:
+    home:
+      home_intro: "網頁本地化期末專案"
+      home_intro_2: "此網站使用Ruby on Rails作為本地化至簡中及繁中，過程中使用Transifex進行偽翻譯測試。"
+      home_contact: "聯繫我們"
+    about:
+      about_page_header: "HTML"
+      about_page_desc: "HTML是一種標記語言，用於描述 web文檔（網頁）。"
+      about_page_content1: "HTML stands for Hyper Text Markup Language"
+      about_page_content2: "一種標記語言，是一組標記標籤"
+      about_page_content3: "HTML文檔是由描述HTML標籤"
+      about_page_content4: "每個HTML標記描述不同的文檔內容"
+    about2:
+      about_page_header: "CSS"
+      about_page_content: "CSS代表Çascading Style Sheets"
+      about_page_content1: "CSS定義HTML元素如何被顯示"
+      about_page_content2: "樣式添加到HTML 4.0 解決問題"
+      about_page_content3: "CSS節省了大量的工作"
+      about_page_content4: "外部樣式表存儲在CSS文件"
+    about3:
+      about_page_header: "JavaScript"
+      about_page_desc: "廣泛用於客戶端的腳本語言，最早是在HTML網頁上使用，用來給HTML網頁增加動態功能。當用戶請求與JavaScript的HTML頁面進行對話，劇本被發送到瀏覽器，它是由瀏覽器來用它做什麼。"
+    about4:
+      about_page_header: "Ruby on Rails"
+      about_page_desc: "Ruby on Rails，簡稱Rails，是一個使用Ruby語言寫的開源Web應用框架，它是嚴格按照MVC結構開發的。它努力使自身保持簡單，來使實際的應用開發時的代碼更少，使用最少的配置。Rails的設計原則包括「不做重複的事」（Don't Repeat Yourself）和「慣例優於設定」（Convention Over Configuration）"
