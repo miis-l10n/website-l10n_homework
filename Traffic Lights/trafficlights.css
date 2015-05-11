@@ -1,0 +1,72 @@
+
+<style>
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+#Button {
+  float: left;
+    padding-top: 150px;
+}
+
+.stop{
+  background-color: gray;
+  color: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 50px;
+}
+
+.slow{
+  background-color: gray;
+  color: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 50px;
+}
+
+.go{
+  background-color: gray;
+  color: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 50px;
+}
+
+
+#Panel {
+  margin: 30px;
+  padding: 20px;float: left;
+  height: 700px;
+  width: 200px;
+  background-color: gray;
+  border-radius: 30px;
+}
+
+.red {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 25px auto;
+}
+
+.yellow {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  margin}
+
+ .green {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 25px auto;
+}
+
+</style>
