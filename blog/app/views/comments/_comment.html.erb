@@ -1,0 +1,15 @@
+<p>
+  <strong><%= t('comments._comment.real_commenter') %></strong>
+  <%= comment.commenter %>
+</p>
+ 
+<p>
+  <strong><%= t('comments._comment.real_comment') %></strong>
+  <%= comment.body %>
+</p>
+
+<p>
+  <%= link_to t('comments._comment.destroy_comment'), [comment.article, comment],
+               method: :delete,
+               data: { confirm: t('comments._comment.confirm') } %>
+</p>

@@ -1,0 +1,54 @@
+en:
+  welcome:
+    index:
+      heading_1: "Mother's Day"
+      paragraph1: "Mother's Day is a modern celebration honoring one's own mother, as well as motherhood, maternal bonds, and the influence of mothers in society. It is celebrated on various days in many parts of the world, most commonly in the months of March or May. It complements similar celebrations honoring family members, such as Father's Day and Siblings Day."
+      paragraph2: "The modern American holiday of Mother's Day was first celebrated in 1908, when Anna Jarvis held a memorial for her mother at St Andrew's Methodist Church in Grafton, West Virginia, which now holds the International Mother's Day Shrine. Her campaign to make Mother's Day a recognized holiday in the United States began in 1905, the year her beloved mother, Ann Reeves Jarvis, died."
+      my_blog_link: "My Blog"
+  layouts:
+    application:
+      blog: "Blog"
+      language_option: "View this page in:"
+  articles:
+    new:
+      new_article: "New Article"
+      back: "Back"
+    _form:
+      title: "Title"
+      text: "Text"
+      create_article_button: "Create Article"
+    index: 
+      article_listing: "Listing articles"
+      mothers_day: "Mother's Day"
+      new_article: "New article"
+      article_title: "Title"
+      article_text: "Text"
+      show_article: "Show"
+      edit_article: "Edit"
+      destroy_article: "Destroy"
+      confirm: "Are you sure?"
+    edit:
+      editing_article: "Editing article"
+      back: "Back"
+    show: 
+      title: "Title:"
+      text: "Text:"
+      edit: "Edit"
+      back: "Back"
+      text_comments: "Comments"
+      add_a_comment: "Add a comment:"
+  comments:
+    _form:
+      comment_commenter: "Commenter"
+      comment_body: "Body"
+      create_comment_button: "Create Comment" 
+    _comment: 
+      real_commenter: "Commenter:"
+      real_comment: "Comment:"
+      destroy_comment: "Destroy Comment"
+      confirm: "Are you sure?"
+
+
+
+
+

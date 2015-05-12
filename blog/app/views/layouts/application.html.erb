@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= t('.blog') %></title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <%= yield %>
+    </div>
+    <footer>
+      <p><%= t('.language_option') %></p>
+      <ul>
+        <li><%= link_to 'English', :locale => :en %></li>
+        <li><%= link_to 'Pseudo', :locale => :pseudo %></li>
+        <li><%= link_to 'Deutsch', :locale => :de %></li>
+        <li><%= link_to 'Español', :locale => :es %></li>
+        <li><%= link_to '日本語', :locale => :ja %></li>
+        <li dir="ltr"><%= link_to '中文 (繁體)', :locale => :zh_TW %></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>

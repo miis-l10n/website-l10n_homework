@@ -1,0 +1,49 @@
+de:
+  welcome:
+    index:
+      heading_1: "Muttertag"
+      paragraph1: "Muttertag ist ein modernes Fest zu Ehren der eigenen Mutter sowie Mutterschaft, mütterlichen Bindungen und den Einfluss der Mütter in der Gesellschaft. Es wird an verschiedenen Tagen in vielen Teilen der Welt gefeiert, am häufigsten in den Monaten März und Mai. Es ergänzt ähnliche Feierlichkeiten zu Ehren Familienmitglieder, wie Vatertag und Geschwister Day."
+      paragraph2: "Die modernen amerikanischen Feiertag der Tag der Mutter wurde erstmals im Jahr 1908 gefeiert, als Anna Jarvis hielt ein Mahnmal für ihre Mutter am Andreas Methodist Church in Grafton, West Virginia, die jetzt hält der Internationale Tag der Mutter Schrein. Ihre Kampagne, um den Tag der Mutter ein anerkannter Feiertag in den Vereinigten Staaten zu machen begann im Jahre 1905, dem Jahr ihrer geliebten Mutter, Ann Reeves Jarvis, gestorben."
+      my_blog_link: "Mein Blog"
+  layouts:
+    application:
+      blog: "Blog"
+      language_option: "View this page in:"
+  articles:
+    new:
+      new_article: "New Artikel"
+      back: "zurück"
+    _form:
+      title: "Titel"
+      text: "Text"
+      create_article_button: "Artikel erstellen"
+    index:
+      article_listing: "Listing Artikel"
+      mothers_day: "Muttertag"
+      new_article: "neuer Artikel"
+      article_title: "Titel"
+      article_text: "Text"
+      show_article: "Show"
+      edit_article: "bearbeiten"
+      destroy_article: "zerstören"
+      confirm: "Sind Sie sicher?"
+    edit:
+      editing_article: "Artikel bearbeiten"
+      back: "zurück"
+    show:
+      title: "Titel:"
+      text: "Text:"
+      edit: "bearbeiten"
+      back: "zurück"
+      text_comments: "Comments"
+      add_a_comment: "Kommentar hinzufügen:"
+  comments:
+    _form:
+      comment_commenter: "Commenter"
+      comment_body: "Körper"
+      create_comment_button: "Kommentar erstellen"
+    _comment:
+      real_commenter: "Commenter:"
+      real_comment: "Kommentar:"
+      destroy_comment: "Zerstöre Kommentar"
+      confirm: "Sind Sie sicher?"
