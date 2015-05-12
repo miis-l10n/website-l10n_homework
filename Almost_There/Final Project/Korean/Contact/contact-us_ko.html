@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>고객상담</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="main.css" media="all">
+	<script type="text/javascript" src="view.js"></script>
+</head>
+<body id="main_body" >
+	<h1> <a>회사정보</a></h1>
+	<p>이메일: info@vox.com | 전화번호: +1 (714) 781-4565 | 주소: 460 Pierce St., Monterey, CA, USA 93940</p>
+
+	<div id="form_container">
+	
+		<form id="form_1008148" class="appnitro" enctype="multipart/form-data" method="post" action="myform">
+					<div class="form_description">
+			<h2>견적 요청</h2>
+			<p>우리에게 견적 요청 이메일을 보내하려면 다음을 입력하세요.</p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="name" for="element_1">이름 </label>
+		<div>
+			<span> 
+				<input id="element_1_1" name= "element_1_1" class="element text" maxlength="255" size="8" value=""/> 
+			</span>
+		</div> 
+		</li>		<li id="li_2" >
+		<label class="email" for="element_2">이메일 </label>
+		<div>
+			<input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_3" >
+		<label class="languages" for="element_3">대상 언어 </label>
+		<div>
+			<input id="element_3" name="element_3" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div><p class="guidelines" id="guide_3"><small>문서를 어떤 언어들로 번역을 워하시는지 적으세요.</small></p> 
+		</li>		<li id="li_6" >
+		<label class="subject" for="element_6">제목 </label>
+		<div>
+			<span>
+				<input id="element_6_1" name="element_6" class="element radio" type="radio" value="1" checked="checked"/>
+				<label class="choice" for="element_6_1">일반</label>
+				<input id="element_6_2" name="element_6" class="element radio" type="radio" value="2" />
+				<label class="choice" for="element_6_2">기술</label>
+				<input id="element_6_3" name="element_6" class="element radio" type="radio" value="3" />
+				<label class="choice" for="element_6_3">법률</label>
+			</span>
+		</div><p class="guidelines" id="guide_6"><small>번역할 문서의 제목을 선택하세요.</small></p> 
+		</li>		<li id="li_4" >
+		<label class="text" for="element_4">번역할 문서 </label>
+		<div>
+			<textarea id="element_4" name="element_4" class="element textarea medium"></textarea> 
+		</div><p class="guidelines" id="guide_4"><small>번역할 문서를 입력하세</small></p> 
+		</li>	
+			
+		<li class="buttons">
+			<input type="hidden" name="form_id" value="1008148" />
+			    
+			<input id="saveForm" class="button_text" type="submit" name="submit" value="제출" />
+			<form name="form_1008148" action="myform" onsubmit="return validateForm()" method="post">
+		</form>
+		</li>
+			</ul>
+		</form>	
+		<div id="footer">
+			<a href="http://www.phpform.org">pForm</a>에 의해 생성된
+		</div>
+	</div>
+	<footer>
+		<a href="../index_ko.html">Home</a>
+	</footer>
+	</body>
+</html>

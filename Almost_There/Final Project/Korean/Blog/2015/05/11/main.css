@@ -1,0 +1,28 @@
+*{
+	width: 550px;
+	margin: 10px auto;
+}
+
+body {
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	background-color: #CEF6D8;
+}
+
+#container {
+	width: 1200px;
+	padding: 3em;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h4 {
+	font-weight: strong;
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+ul {
+	list-style-type: none;
+}

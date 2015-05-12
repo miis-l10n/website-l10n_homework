@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Tips for Making Your Game Localization Easier and Better</title>
+</head>
+<body>
+	<h1>Localization News</h1>
+	<h2>2015.05.11</h2>
+	<h3>Tips for Making Your Game Localization Easier and Better</h3>
+	<div class="container">
+		<img src="blog_image.png"> 
+	    <p>Localizing a fantastic game for other target markets is a great way of reaching a wider audience, and the game localization process can be empowering, rewarding and a lot of fun! On the other hand, game localization can also be far more sophisticated, complicated or even frustrating than originally expected. What are the secrets behind it? Follow the tips below and make your game localization process enjoyable, rather than head-splitting!</p>
+
+    	<h4>I. Preparation</h4>
+ 
+		<h3>Get a good script writer and error-free source script</h3>
+		 
+		<p>Mistakes multiply! Errors will be mirrored and multiplied in the number of target languages. It's always a good idea to get a top-notch script writer from the beginning and ensure that the source material is as good as possible. Before sending it off for localization, make sure the source script has been thoroughly proofread and there are no spelling or grammar errors, inconsistent terms, potential misunderstandings or harmful jokes and idioms. [i]</p>
+		 
+		 
+		<h3>Women, children and internationalization first</h3>
+		 
+		<p>Before talking about how many languages you want your game to be in, make sure it has the capability of speaking multiple languages! "Internationalization" (often shortened as "i18n") is the process of making your game localization-ready at the code level, ensuring that it can "speak" other languages. If you develop your game with only English in mind, you will find yourself struggling to support the particular traits of every other language you add later on, such as accented characters, bi-directional text, local currencies and date formats, and the like. Be smart and take internationalization into consideration as a part of your game development, while it's still cheap and within your reach. [ii]</p>
+		 
+		 
+		<h3>Avoid embedding text directly into the code</h3>
+		 
+		<p>Don't directly embed your text into your scripts. Embedding text directly into the code instead of keeping text in separate files will slow down the localization process and make it more costly than necessary for several reasons:</p>
+		 
+		<ol>
+		<li>The number of words counted will increase if there are no filters available that can separate the text from the code.</li> 
+		<li>Having text embedded in code will slow down the localization process tremendously, as the translator needs to actually read the code to determine which segments need translation and which ones do not.</li>
+		<li>The consistency of the translation will be more difficult to maintain.</li>
+		</ol>
+		 
+		 
+		<p>Take the following example:</p>
+		 
+			<ul>
+			<li>show_data(samples, countone, "Original values");</li>
+			<li>show_data(samples, counttwo, "Original values");</li>
+			</ul>
+		 
+		<p>The translator's translation tool will count these as two separate strings. If there are thousands of other strings between the above-mentioned two strings, you can be sure the translator will have forgotten how she or he translated them to begin with.</p>
+		 
+		<p>Here is an alternative:</p>
+		 
+			<ul>
+			<li>Original values</li>
+			<li>Original values</li>
+			</ul>
+		 
+		<p>Had the code looked like this, the translation tool would have automatically propagated the first instance to the second instance. That saves you money and time, and leads to greater consistency and translation quality. Therefore, use separate text files, or even better yet, use XML. [iii]</p>
+		 
+		 
+		<h3>Check your target markets and tee your assets up</h3>
+		 
+		<p>Some parts of your source material may be relevant to certain target markets but not the others. The extent to which game assets are localized may vary from project to project, depending on how many resources are available to invest and the likely return on the investment. To keep your costs down, you need to prioritize your resources and budget. Rather than localize all assets into all languages, tier your assets up according to the need in the target markets. Map localization plans to product penetration and growth trajectory from experimental to matured or optimized. [iv]</p>
+		 
+		 
+		<h4>II. Working with Translators</h4>
+		 
+		<h3>Let the translators get familiar with your game</h3>
+		 
+		<p>No matter how small or large the game might be, to maintain the "fun factor" of the original, you need to give the translators a chance to see the text in its original context.  Leave at least three days for playing the game or reading background documentation for small titles, with another two days to become familiar with previous localized titles in the series when appropriate.</p>
+		 
+		<h3>Provide as much information & guidance as possible</h3>
+		 
+		<p>If possible, provide a beta build of the game so the translators can see the lines in the proper context. If the translators may not get to see the actual game, you should add as much information as possible about a given line in a separate column to help the translator better understand the line within its proper context. It is better to provide a working glossary and style guide, especially when a team of translators works at the same time. The style guide should list all spelling, grammar, and punctuation rules that apply to the title. Screenshots can also be great for giving the translators a feel for the context. Never just throw multiple text files with no logical order to them.</p>
+		 
+		 
+		<h4>III. During Localization</h4>
+		 
+		<h3>Submit changes in larger batches</h3>
+		 
+		<p>If the source material is being continuously updated while translation is ongoing (not recommended, but unavoidable in some cases), submit any changes or updates to the source material in larger batches to keep translation costs down. This is also important to ensure the stability of the game product, and that any changes made during the pending localization process do not unintentionally corrupt the source version.</p>
+		 
+		 
+		<h4>IV. Voice Acting</h4>
+		 
+		<h3>Use dummy-voices</h3>
+		 
+		<p>Getting English dummy voices recorded can help you get an understanding of how your dialogue will work in the game. You can also use dummy voices to ensure that the proper expression is used for a given line of dialogue. Get these recorded before the voice actors are brought in. The approved dummy voices can then serve as a guideline when the voice actors will be recording their lines.</p>
+		 
+		<h3>Add direction</h3>
+		 
+		<p>Some parts of your script may need to be read out in a certain way, for instance, whispering and yelling, or may call for a certain mood or tone of voice. This may not be immediately clear from your copy, so add a comment on the style needed for a given line to get the emphasis you are after.</p>
+		 
+		 
+		<h3>Add exclamation points to your script</h3>
+		 
+		<p>To bring life to your game's characters, it's often a good idea to add a selection of exclamations for each character - even though you might not think you'll need them at first.</p>
+		 
+		<p>Recording these extra lines doesn't add much overhead - but if you later decide to add them in, it may be more expensive and time consuming if voice actors will have to be brought in again to record those additional lines.</p>
+		 
+		<h3>Staying in character</h3>
+		 
+		<p>To ensure consistency across future titles, it's a good idea to keep note of the voice actors you're using for your current production. This ensures that character voices sound the same throughout your productions. [v]</p>
+
+		<ul>
+		<li>[i] <a href="http://www.epicsound.com/resources/gamelocalization/">22 Tips For Better Game Localization</a></li>
+		<li>[ii] <a href="https://www.linkedin.com/pulse/jumping-off-software-localization-cliff-8-steps-jose-palomares">Jumping Off the Software Localization Cliff in 8 Steps</a></li>
+		<li>[iii] <a href="http://www.smartling.com/wp-content/uploads/pdf/Smartling_eBook_GettingStartedWithGamingLocalization.pdf">Getting Started with Gaming Localization</a></li>
+		<li>[iv] <a href="https://www.linkedin.com/pulse/3-globalization-trends-2015-anna-n-schlegel?trk=mp-reader-card">3 Globalization Trends for 2015</a></li>
+		<li>[v] <a href="http://www.epicsound.com/resources/gamelocalization/">22 Tips For Better Game Localization</li>
+		</ul>
+	</div>
+	</body>
+</html>

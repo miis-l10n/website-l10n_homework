@@ -1,0 +1,29 @@
+*{
+	width: 550px;
+	margin: 10px auto;
+}
+
+body {
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	background-color: #CEF6D8;
+}
+
+p:first-letter{
+	font-size: 500%;
+	color: #000000;
+	float: left;
+	font-weight: 300;
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px; 
+}
+
+#container {
+	width: 1200px;
+	padding: 3em;
+}
+
+h2 {
+	font-size: 20px;
+}
