@@ -1,0 +1,28 @@
+body {
+  font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  background-color: #CEF6D8;
+}
+
+h1 {
+  font-size: 30pt;
+  font-weight: strong;
+  text-align: center;
+}
+
+div {
+  margin-bottom: 25px;
+  vertical-align: text-top;
+}
+
+.content {
+  display: inline-block;
+  height: 400px;
+  border: 4px #58ACFA;
+  padding: 20px;
+  overflow: true;
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+}

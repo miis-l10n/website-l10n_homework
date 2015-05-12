@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Контакты</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="main.css" media="all">
+	<script type="text/javascript" src="view.js"></script>
+</head>
+<body id="main_body" >
+	<h1> <a>Информация о нас</a></h1>
+	<p>Email: info@vox.com | Тел.: +1 (714) 781-4565 | Адрес: 460, Пирс стрит, Монтерей, Калифорния, США, 93940.</p>
+
+	<div id="form_container">
+	
+		<form id="form_1008148" class="appnitro" enctype="multipart/form-data" method="post" action="myform">
+					
+					<div class="form_description">
+			<h2>Направить заявку</h2>
+			<p>Пожалуйста, введите следующие данные, чтобы направить нам электронное письмо с заявкой.</p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="name" for="element_1">Ваши ФИО </label>
+		<div>
+			<span>
+				<input id="element_1_1" name= "element_1_1" class="element text" maxlength="255" size="8" value=""/>
+				<label>Имя</label>
+			</span>
+			<span>
+				<input id="element_1_2" name= "element_1_2" class="element text" maxlength="255" size="14" value=""/>
+				<label>Фамилия</label>
+			</span>
+		</div> 
+		</li>		<li id="li_2" >
+		<label class="email" for="element_2">Email </label>
+		<div>
+			<input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_3" >
+		<label class="languages" for="element_3">Языки перевода </label>
+		<div>
+			<input id="element_3" name="element_3" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div><p class="guidelines" id="guide_3"><small>Пожалуйста, перечислите языки, на которые Вы хотите перевести свой текст.</small></p> 
+		</li>		<li id="li_6" >
+		<label class="subject" for="element_6">Тематика </label>
+		<div>
+			<span>
+			<input id="element_6_1" name="element_6" class="element radio" type="radio" value="1" checked="checked"/>
+			<label class="choice" for="element_6_1">Общая тематика</label>
+			<input id="element_6_2" name="element_6" class="element radio" type="radio" value="2" />
+			<label class="choice" for="element_6_2">Новые технологии</label>
+			<input id="element_6_3" name="element_6" class="element radio" type="radio" value="3" />
+			<label class="choice" for="element_6_3">Юриспруденция</label>
+			</span>
+		</div><p class="guidelines" id="guide_6"><small>Пожалуйста, выберите тематику Вашего текста.</small></p> 
+		</li>		<li id="li_4" >
+		<label class="text" for="element_4">Текст для перевода </label>
+		<div>
+			<textarea id="element_4" name="element_4" class="element textarea medium"></textarea> 
+		</div><p class="guidelines" id="guide_4"><small>Пожалуйста, вставьте текст для перевода.</small></p> 
+		</li>	
+			
+		<li class="buttons">
+			<input type="hidden" name="form_id" value="1008148" />
+			    
+			<input id="saveForm" class="button_text" type="submit" name="submit" value="Направить" />
+			<form name="form_1008148" action="myform" onsubmit="return validateForm()" method="post">
+		</form>
+		</li>
+			</ul>
+		</form>	
+		<div id="footer">
+			Выполнено <a href="http://www.phpform.org">pForm</a>
+		</div>
+	</div>
+	<footer>
+		<a href="../index_ru.html">Главная</a>
+	</footer>
+	</body>
+</html>
