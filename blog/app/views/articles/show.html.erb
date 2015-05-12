@@ -1,0 +1,18 @@
+<p>
+  <strong><%= t('articles.show.title') %></strong>
+  <%= @article.title %>
+</p>
+ 
+<p>
+  <strong><%= t('articles.show.text') %></strong>
+  <%= @article.text %>
+</p>
+
+<h2><%= t('articles.show.text_comments') %></h2>
+<%= render @article.comments %>
+
+<h2><%= t('articles.show.add_a_comment') %></h2>
+<%= render 'comments/form' %>
+
+<%= link_to t('articles.show.edit'), edit_article_path(@article) %> |
+<%= link_to t('articles.show.back'), articles_path %>

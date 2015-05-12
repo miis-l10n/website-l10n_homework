@@ -1,0 +1,29 @@
+<h1><%= t('.article_listing') %></h1>
+<nav>
+  <ul>
+    <li><%= link_to t('.mothers_day'), root_path %></li>
+  </ul>
+</nav>
+
+<%= link_to t('.new_article'), new_article_path %>
+<table>
+  <tr>
+    <th><%= t('.article_title') %></th>
+    <th><%= t('.article_text') %></th>
+    <th colspan="3"></th>
+  </tr>
+
+  <% @articles.each do |article| %>
+  <tr>
+    <td><%= article.title %></td>
+    <td><%= article.text %></td>
+  </tr>
+  <tr>
+    <td><%= link_to t('.show_article'), article_path(article) %></td>
+    <td><%= link_to t('.edit_article'), edit_article_path(article) %></td>
+    <td><%= link_to t('.destroy_article'), article_path(article),
+            method: :delete,
+            data: { confirm: t('.confirm') } %></td>
+  </tr>
+  <% end %>
+</table>

@@ -1,0 +1,49 @@
+es:
+  welcome:
+    index:
+      heading_1: "Día de la Madre"
+      paragraph1: "Día de la Madre es una celebración moderna honrar la propia madre, así como la maternidad, los bonos materna, y la influencia de las madres en la sociedad. Se celebra en diferentes días en muchas partes del mundo, con mayor frecuencia en los meses de marzo o mayo. Complementa las celebraciones similares en honor a miembros de la familia, como el Día del Padre y Día Hermanos."
+      paragraph2: "La fiesta americana moderna del Día de la Madre se celebra por primera vez en 1908, cuando Anna Jarvis celebró un memorial a su madre en la iglesia de San Andrés Metodista en Grafton, Virginia Occidental, que ahora ocupa el Día de la Madre Internacional Santuario. Su campaña para el Día de la Madre un día de fiesta reconocida en los Estados Unidos comenzó en 1905, año en que su querida madre, Ann Reeves Jarvis, murió."
+      my_blog_link: "Mi Blog"
+  layouts:
+    application:
+      blog: "Blog"
+      language_option: "Ver esta página en:"
+  articles:
+    new:
+      new_article: "Nuevo artículo"
+      back: "espalda"
+    _form:
+      title: "título"
+      text: "texto"
+      create_article_button: "crear artículo"
+    index:
+      article_listing: "Listado de artículos"
+      mothers_day: "Día de la Madre"
+      new_article: "Nuevo artículo"
+      article_title: "título"
+      article_text: "texto"
+      show_article: "show"
+      edit_article: "editar"
+      destroy_article: "destruir"
+      confirm: "Estás seguro?"
+    edit:
+      editing_article: "artículo Edición"
+      back: "espalda"
+    show:
+      title: "Título:"
+      text: "Texto:"
+      edit: "editar"
+      back: "espalda"
+      text_comments: "Comentarios"
+      add_a_comment: "Añadir un comentario:"
+  comments:
+    _form:
+      comment_commenter: "Comentarista"
+      comment_body: "cuerpo"
+      create_comment_button: "Crea comentario"
+    _comment:
+      real_commenter: "Comentarista:"
+      real_comment: "Comentario:"
+      destroy_comment: "Destruye comentario"
+      confirm: "Estás seguro?"

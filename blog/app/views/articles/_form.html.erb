@@ -1,0 +1,17 @@
+<%= form_for @article do |f| %>
+ 
+  <p>
+    <%= f.label t('articles._form.title') %><br>
+    <%= f.text_field :title %>
+  </p>
+ 
+  <p>
+    <%= f.label t('articles._form.text') %><br>
+    <%= f.text_area :text %>
+  </p>
+ 
+  <p>
+    <%= f.submit t('articles._form.create_article_button') %>
+  </p>
+ 
+<% end %>
