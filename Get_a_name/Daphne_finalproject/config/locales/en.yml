@@ -1,0 +1,34 @@
+en:
+  layouts:
+    application:
+      home_link: "About"
+      about_link: "HTML"
+      about2_link: "CSS"
+      about3_link: "JavaScript"
+      about4_link: "Ruby on Rails"
+      language_options: "View this page in:"
+  static_pages:
+    home:
+      home_intro: "Website L10n Final Project"
+      home_intro_2: "The site will be pseudo localized within Transifex for testing and localized into Simplified and Traditional Chinese with ruby on rails app as the final L10n solution."
+      home_contact: "Contact Us"
+    about:
+      about_page_header: "HTML"
+      about_page_desc: "HTML is a markup language for describing web documents (web pages)."
+      about_page_content1: "HTML stands for Hyper Text Markup Language"
+      about_page_content2: "A markup language is a set of markup tags"
+      about_page_content3: "HTML documents are described by HTML tags"
+      about_page_content4: "Each HTML tag describes different document content"
+    about2:
+      about_page_header: "CSS"
+      about_page_content: "CSS stands for Cascading Style Sheets"
+      about_page_content1: "CSS defines how HTML elements are to be displayed"
+      about_page_content2: "Styles were added to HTML 4.0 to solve a problem"
+      about_page_content3: "CSS saves a lot of work"
+      about_page_content4: "External Style Sheets are stored in CSS files"
+    about3:
+      about_page_header: "JavaScript"
+      about_page_desc: "JavaScript is most commonly used as a client side scripting language. This means that JavaScript code is written into an HTML page. When a user requests an HTML page with JavaScript in it, the script is sent to the browser and it's up to the browser to do something with it."
+    about4:
+      about_page_header: "Ruby on Rails"
+      about_page_desc: "Ruby on Rails, or simply Rails, is an open source web application framework written in Ruby. Rails is a full-stack framework that emphasizes the use of well-known software engineering patterns and paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), the active record pattern, and model–view–controller (MVC)."
